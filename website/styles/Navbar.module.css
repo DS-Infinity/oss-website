@@ -1,0 +1,37 @@
+.image {
+  height: 10vh;
+  width: 17.78vh;
+  margin-left: 24px;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+  min-height: 10vh;
+  width: 100%;
+  max-height: 9vh;
+  background-color: #081A26;
+  position: fixed;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  color: #081A26;
+  background-color: #F59E0B;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin-right: 1vw;
+  font-size: 18px;
+  font-weight: bold;
+}
