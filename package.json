@@ -1,0 +1,11 @@
+{
+  "name": "open-source-sunday",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "node dist/src/index.js"
+  }
+}
