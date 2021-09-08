@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "dev": "nodemon dist/src/index.js"
+    "dev": "nodemon dist/src/index.js",
+    "start": "node dist/src/index.js"
   },
   "dependencies": {
     "dotenv": "^10.0.0",
