@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node server/dist/src/index.js"
+    "start": "cd server; npm run build; cd dist; cd src; node index.js"
   },
   "engines": {
     "node": ">=14.0.0",
