@@ -1,0 +1,25 @@
+.projects {
+  width: 100vw;
+  background: linear-gradient(
+    135deg,
+    rgba(16, 39, 54, 1) 0%,
+    rgba(2, 17, 28, 1) 100%
+  );
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  font-size: 72px;
+  font-weight: 500;
+  width: 64vw;
+  padding-top: 16vh;
+  padding-bottom: 16vh;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 500;
+}

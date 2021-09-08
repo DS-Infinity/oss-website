@@ -6,10 +6,10 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "dev": "nodemon dist/index.js"
+    "dev": "nodemon dist/src/index.js"
   },
   "dependencies": {
-    "dotenv": "^8.2.0",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "module-alias": "^2.2.2",
     "mongoose": "^5.12.2"

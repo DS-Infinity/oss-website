@@ -1,15 +1,14 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
-  height: 100vh;
+  width: 100vw;
+  background-color: #081a26;
 }
 
 .main {
-  padding: 5rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -32,4 +31,6 @@
   align-items: center;
   flex-grow: 1;
 }
-
+.fill {
+  height: 10vh;
+}

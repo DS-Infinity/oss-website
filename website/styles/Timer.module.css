@@ -1,0 +1,14 @@
+.timer {
+  width: 100vw;
+  height: 40vh;
+  background: linear-gradient(135deg, rgba(16,39,54,1) 0%, rgba(2,17,28,1) 100%);
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown {
+  font-size: 72px;
+  font-weight: 500;
+}
