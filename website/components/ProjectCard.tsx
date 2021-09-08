@@ -1,4 +1,4 @@
-import styles from '../styles/Projects.module.css';
+import styles from '../styles/ProjectCard.module.css';
 import { useEffect, useState } from 'react';
 
 interface ProjectCardProps {
@@ -13,7 +13,7 @@ interface ProjectCardProps {
 export const ProjectCard = () => {
   return (
     <div className={styles.project}>
-      
+
     </div>
   );
 };
